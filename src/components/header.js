@@ -18,7 +18,8 @@ class Header extends Component{
     inputChange(event){
         console.log('Hiiii  ',event.target.value);
         //setting state
-        this.setState({keyword:event.target.value})
+        this.setState({keyword:event.target.value});
+        this.props.newsSearch(event.target.value);
     }
 
     render(){

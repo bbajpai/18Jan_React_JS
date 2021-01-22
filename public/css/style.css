@@ -11,3 +11,9 @@ header input{
     font-size:25px;
     margin:20px 0;
 }
+
+.news_item{
+    padding:20px;
+    box-sizing:border-box;
+    border-bottom: 1px solid gray;
+}
